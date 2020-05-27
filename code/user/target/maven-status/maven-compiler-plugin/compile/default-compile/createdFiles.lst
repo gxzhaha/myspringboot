@@ -1,2 +1,7 @@
+cn\itcast\user\interceptor\MyInterceptor.class
+cn\itcast\user\mapper\UserMapper.class
+cn\itcast\user\config\WebMvcConfiguration.class
+cn\itcast\user\service\UserService.class
 cn\itcast\user\UserApplication.class
 cn\itcast\user\controller\UserController.class
+cn\itcast\user\pojo\User.class
