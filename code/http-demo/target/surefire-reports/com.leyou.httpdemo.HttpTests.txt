@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.leyou.httpdemo.HttpTests
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.896 s <<< FAILURE! - in com.leyou.httpdemo.HttpTests
-testPost(com.leyou.httpdemo.HttpTests)  Time elapsed: 0.185 s  <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.016 s <<< FAILURE! - in com.leyou.httpdemo.HttpTests
+testPost(com.leyou.httpdemo.HttpTests)  Time elapsed: 0.16 s  <<< ERROR!
 org.apache.http.client.HttpResponseException: Moved Permanently
 	at com.leyou.httpdemo.HttpTests.testPost(HttpTests.java:34)
 
-testGetPojo(com.leyou.httpdemo.HttpTests)  Time elapsed: 0.006 s  <<< ERROR!
+testGetPojo(com.leyou.httpdemo.HttpTests)  Time elapsed: 0.003 s  <<< ERROR!
 org.apache.http.client.HttpResponseException: Not Found
 	at com.leyou.httpdemo.HttpTests.testGetPojo(HttpTests.java:41)
 

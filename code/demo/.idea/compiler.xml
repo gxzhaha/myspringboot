@@ -9,11 +9,15 @@
         <module name="http-demo" />
         <module name="itcast-springboot" />
         <module name="user" />
+        <module name="service-provide-boot" />
+        <module name="service_provide" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="http-demo" target="1.8" />
       <module name="itcast-springboot" target="1.8" />
+      <module name="service-provide-boot" target="1.8" />
+      <module name="service_provide" target="1.8" />
       <module name="user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="http-demo" options="-parameters" />
       <module name="itcast-springboot" options="-parameters" />
+      <module name="service-provide-boot" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>
   </component>

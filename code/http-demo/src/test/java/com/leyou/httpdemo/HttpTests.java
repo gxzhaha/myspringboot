@@ -21,7 +21,7 @@ public class HttpTests {
 
     @Test
     public void testGet() throws IOException {
-        HttpGet request = new HttpGet("http://www.baidu.com");
+        HttpGet request = new HttpGet("https://www.baidu.com");
         String response = this.httpClient.execute(request, new BasicResponseHandler());
         System.out.println(response);
     }

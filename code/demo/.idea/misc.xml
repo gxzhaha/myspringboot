@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/../itcast-springboot/pom.xml" />
         <option value="$PROJECT_DIR$/../user/pom.xml" />
         <option value="$PROJECT_DIR$/../http-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../service-provide-boot/pom.xml" />
       </list>
     </option>
   </component>
