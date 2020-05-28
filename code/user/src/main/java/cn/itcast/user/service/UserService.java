@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 /**
  * @author 晓庄哥哥
  * @warning 要写注释弟弟
@@ -22,5 +24,9 @@ public class UserService {
     @Transactional
     public void deleteById(Long id) {
         this.userMapper.deleteByPrimaryKey(id);
+    }
+
+    public List<User> queryUserAll() {
+        return this.userMapper.selectAll();
     }
 }
