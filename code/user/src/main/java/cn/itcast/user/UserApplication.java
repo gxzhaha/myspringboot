@@ -1,7 +1,7 @@
 package cn.itcast.user;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import or   g.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author 晓庄哥哥
