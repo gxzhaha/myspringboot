@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.leyou.httpdemo.HttpDemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.263 s <<< FAILURE! - in com.leyou.httpdemo.HttpDemoApplicationTests
+httpGet(com.leyou.httpdemo.HttpDemoApplicationTests)  Time elapsed: 0.222 s  <<< ERROR!
+org.springframework.web.client.HttpClientErrorException: 404 Not Found
+	at com.leyou.httpdemo.HttpDemoApplicationTests.httpGet(HttpDemoApplicationTests.java:20)
+
